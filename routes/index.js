@@ -30,6 +30,7 @@ module.exports = function(app){
   var compile = require('./compiler');
   var fiat = require('./fiat');
   var stats = require('./stats');
+  var richList = require('./richlist');
 
   /* 
     Local DB: data request format
@@ -37,6 +38,7 @@ module.exports = function(app){
     { "tx": "0x1234blah" }
     { "block": "1234" }
   */
+  app.post('/richlist', richList);
   app.post('/addr', getAddr);
   app.post('/tx', getTx);
   app.post('/block', getBlock);
