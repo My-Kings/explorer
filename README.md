@@ -8,7 +8,7 @@
 
 Clone the repo
 
-`git clone https://github.com/ethersocial/explorer`
+`git clone https://github.com/My-Kings/explorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -43,8 +43,8 @@ Basic settings:
     "patchBlocks":  100,
     "settings": {
         "symbol": "ESN",
-        "name": "Ethersocial Network",
-        "title": "Ethersocial Network Block Explorer",
+        "name": "REOSC Network",
+        "title": "REOSC Network Block Explorer",
         "author": "Elaine"
     }
 }
